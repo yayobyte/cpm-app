@@ -1,4 +1,17 @@
+.page{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top:50%;
+    margin-top: -150px;
+}
+
 .logo {
+    height: 200px;
+    weight: 170;
+}
+
+.login-form{
     height: 400px;
 }
 
