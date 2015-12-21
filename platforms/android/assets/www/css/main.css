@@ -1,0 +1,10 @@
+.logo {
+    height: 400px;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .logo {
+        
+    }
+}
