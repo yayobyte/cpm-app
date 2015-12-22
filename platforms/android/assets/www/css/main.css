@@ -1,9 +1,17 @@
+.create-account-paralax{
+    height: 200px;
+}
+
+#createAccount {
+
+}
+
+
 .page{
-    height: 300px;
     width: 100%;
     position: absolute;
     top:50%;
-    margin-top: -150px;
+    margin-top: -210px;
 }
 
 .logo {
@@ -14,6 +22,7 @@
 .login-form{
     height: 400px;
 }
+
 
 
 /* Landscape layout (with min-width) */

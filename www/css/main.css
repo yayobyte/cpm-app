@@ -1,8 +1,11 @@
-footer{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+.create-account-paralax{
+    height: 200px;
 }
+
+#createAccount {
+
+}
+
 
 .page{
     width: 100%;
@@ -19,6 +22,7 @@ footer{
 .login-form{
     height: 400px;
 }
+
 
 
 /* Landscape layout (with min-width) */

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        
+        
+        <link type="text/css" rel="stylesheet" href="css/material-icons.css">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css">
+        
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <title>CPM app</title>
+    </head>
+    <body class="green">
+
+        <div id="createAccount">
+            
+            <div class="row">
+                <div class="col s12 center-align">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/moto-row.jpg">
+                            <span class="card-title">Crear Cuenta</span>
+                        </div>
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="input-field col s12 ">
+
+                                    <input id="username_name" type="text" class="validate">
+                                    <label for="username_name">Nombre(s)</label>
+                                </div>
+                                <div class="input-field col s12 ">
+
+                                    <input id="username_lastname" type="text" class="validate">
+                                    <label for="username_lastname">Apellido(s)</label>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="input-field col s12 m6">
+                                        <select class="icons validate">
+                                            <option value="" disabled selected>Seleccione</option>
+                                            <option value="1" data-icon="img/pulsar180.png" class="left circle">Pulsar 180</option>
+                                            <option value="2" data-icon="img/pulsar200oil.png" class="left circle">Pulsar 200</option>
+                                            <option value="3" data-icon="img/pulsar220.png" class="left circle">Pulsar220</option>
+                                            <option value="4" data-icon="img/pulsar220f.png" class="left circle">Pulsar220f</option>
+                                            <option value="5" data-icon="img/pulsar200ns.png" class="left circle">Pulsar200 NS</option>
+                                        </select>
+                                        <label>Moto</label>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                                <div class="input-field col s12 ">
+
+                                    <input id="password" type="password" class="validate">
+                                    <label for="last_name">Contrase&ntilde;a</label>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="card-action">
+                            <a href="#">Crear Cuenta</a>
+                        </div>
+                    </div>
+                    
+                    <div class="col s12 white-text">
+                            <div class="right-align">
+                                <div  style="display: inline">Ya soy piloto: &nbsp; &nbsp;</div>
+                                <div  style="display: inline">
+                                    <a href="index.html" class="waves-effect waves-green btn white green-text">ingresar</a>
+                                </div>              
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            
+        </div>
+        
+
+    
+    
+
+        
+        <!-- Javascript Code-->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        
+        <script type="application/javascript">
+            $(document).ready(function() {
+            $('select').material_select();
+          });
+        </script>
+        
+    </body>
+</html>
